@@ -12,7 +12,7 @@ var users = [
         "img" : "john.png"
     },
     {
-        "name" : "Maha",
+        "name" : "Mahasree",
         "gender" : "Female",
         "img" : "jane.png"
     }

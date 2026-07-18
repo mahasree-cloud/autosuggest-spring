@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style> 
+    body{
+        text-align: center;
+    }
+    .gear{
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
+   .pill{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+   }
+   .logo{
+    margin-top: 150px;
+   }
+   .logo-first{
+    color: deeppink;
+   }
+    .tag-line{
+        color: grey;
+    }
+    .lens{
+        position: relative;
+        left: 30px;
+    }
+    .search-bar{
+        padding-left: 30px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        width: 80%;
+    }
+   .search-suggestions {
+            width: 80%;
+            margin: 8px 0 0;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            text-align: left;
+            margin: 0px auto;
+        }
+        .suggestion {
+            padding: 10px 14px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>BeingInfinity</h1>
-    <h1>One million phrases.Four algorithms.Prefix Based Auto Suggest</h1>
-</body>
+    <span class="gear">&#x2699;</span>
+    <span class ="pill">&#x2022;online | &#x1f552;-ms</span>
+    <h1 class="logo"><span class="logo-first">Being</span>Infinity</h1>
+    <p class="tag-line">One million phrases.Four Algorithms.Prefix Based Auto Suggest</p>
+    <span>&#128269;</span>
+        <input class="search-bar" type="text" placeholder="Start typing to search phrases..">
+        <div class =" search-suggestions"></div> 
+    <div class="search-suggestions">
+        <div class="suggestion"> Cyber security </div>
+        <div class="suggestion">  Data Science </div>
+    </div>
 </html>
